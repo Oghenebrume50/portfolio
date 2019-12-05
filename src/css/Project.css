@@ -1,0 +1,10 @@
+.a-project {
+  width: 40%;
+  height: 40em;
+  margin-bottom: 5em;
+  border-radius: 1em;
+}
+
+.a-project img {
+  width: 100%;
+}
