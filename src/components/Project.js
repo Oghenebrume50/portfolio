@@ -3,14 +3,15 @@ import '../css/Project.css';
 
 class Project extends React.Component {
   render() {
+    const {img_src, proj_title, proj_desc} = this.props;
     return (
-      <div class="a-project">
+      <div className="a-project">
         <div>
-          <img src="https://images.unsplash.com/photo-1575216993067-ccf605d07f41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80" alt="nnkjn"/>
+          <img src={img_src} alt="bookstore"/>
         </div>
         <div>
-          <p class="project_title">project title</p>
-          <p class="project_desc">project description</p>
+          <p className="project_title">{proj_title}</p>
+          <p className="project_desc">{proj_desc}</p>
         </div>
       </div>
     )

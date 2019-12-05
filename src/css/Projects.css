@@ -1,5 +1,12 @@
 .all-projects {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-projects div {
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
