@@ -29,7 +29,7 @@ class Work extends React.Component {
   render() {
     return (
       <div className="all-projects">
-        <p className="page-desc">Projects</p>
+        <p className="page-desc" style={{fontSize:33}}>Projects</p>
         <div className="page-items">
           {this.state.show === 'project' ? 
           <div>
