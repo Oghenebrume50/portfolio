@@ -1,0 +1,58 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 0;
+}
+
+.footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+.social-holders {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 0;
+}
+
+.social-holders a {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+.social-holders .twitter {
+  color: lightblue;
+}
+
+.social-holders .linkedln {
+  color: darkblue;
+}
+
+.social-holders .github, .social-holders .medium {
+  color: black;
+}
+
+.social-holders .insta {
+  color: #3f729b;
+}
+
+.footer p {
+  text-align: left;
+}
+.footer p a {
+  color: #28a386;
+}
+
+@media screen and (max-width: 650px) {
+  .footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+}

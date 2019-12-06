@@ -1,0 +1,20 @@
+.short-note {
+  width: 70%;
+  margin-left: auto;
+  margin-right: 20%;
+  line-height: 1.5em;
+}
+
+.short-note p {
+  margin: .5em;
+}
+
+.short-note p:first-child {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.imp-message {
+  font-size: 2em;
+  color: #28a386;
+}
