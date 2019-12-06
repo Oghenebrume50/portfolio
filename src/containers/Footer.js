@@ -10,9 +10,11 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer">
-        <FontAwesomeIcon icon={faHome}/>
-        <Socials/>
-        <p>created by Raphael Noriode with Reactjs and icon from fontawesome</p>
+        <div>
+          <FontAwesomeIcon icon={faHome}/>
+          <Socials/>
+        </div>
+        <p>created by Raphael Noriode with <a href="https://reactjs.org/">Reactjs</a>, <a href="https://unsplash.com/">unsplash</a> and icon from <a href="https://fontawesome.com/">fontawesome</a></p>
       </div>
     )
   }

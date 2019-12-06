@@ -3,9 +3,9 @@ import '../css/Project.css';
 
 class Project extends React.Component {
   render() {
-    const {img_src, proj_title, proj_desc} = this.props;
+    const {img_src, proj_title, proj_desc, link } = this.props;
     return (
-      <a className="a-project" href="https://github.com/Oghenebrume50/portfolio">
+      <a className="a-project" href={link}>
         <div>
           <img src={img_src} alt="bookstore"/>
         </div>

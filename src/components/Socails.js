@@ -6,11 +6,21 @@ class Socials extends React.Component {
   render() {
     return (
       <div className="social-holders">
-        <a href="https://twitter.com/raphael_noriode"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a href="https://twitter.com/raphael_noriode"><FontAwesomeIcon icon={faGithub} /></a>
-        <a href="https://twitter.com/raphael_noriode"><FontAwesomeIcon icon={faTwitter} /></a>
-        <a href="https://twitter.com/raphael_noriode"><FontAwesomeIcon icon={faInstagram} /></a>
-        <a href="https://twitter.com/raphael_noriode"><FontAwesomeIcon icon={faMedium} /></a>
+        <a href="https://twitter.com/raphael_noriode" className="linkedln">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://twitter.com/raphael_noriode">
+          <FontAwesomeIcon icon={faGithub} className="github"/>
+        </a>
+        <a href="https://twitter.com/raphael_noriode" className="twitter">
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a href="https://twitter.com/raphael_noriode" className="insta">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+        <a href="https://twitter.com/raphael_noriode" className="medium">
+          <FontAwesomeIcon icon={faMedium} />
+        </a>
       </div>
     )
   }

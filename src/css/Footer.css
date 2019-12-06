@@ -1,20 +1,42 @@
 .footer {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-direction: column;
   padding-left: 5%;
   padding-top: 1%;
   padding-bottom: 0;
 }
 
-.social-holders {
+.footer div {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 40%;
-  margin-left: 2%;
+}
+
+.social-holders {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
   padding: 0;
 }
 
 .social-holders a {
   font-size: 2em;
+  margin-left: 1em;
+}
+
+.social-holders .twitter {
+  color: lightblue;
+}
+
+.social-holders .linkedln {
+  color: darkblue;
+}
+
+.social-holders .github, .social-holders .medium {
+  color: black;
+}
+
+.footer p {
+  text-align: left;
 }
