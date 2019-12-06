@@ -9,9 +9,9 @@ import '../css/Footer.css';
 class Footer extends React.Component {
   render() {
     return (
-      <div className="footer">
+      <div className="footer" id="footer-contact">
         <div>
-          <FontAwesomeIcon icon={faHome}/>
+          <a href={window.location.reload}><FontAwesomeIcon icon={faHome}/></a>
           <Socials/>
         </div>
         <p>created by Raphael Noriode with <a href="https://reactjs.org/">Reactjs</a>, <a href="https://unsplash.com/">unsplash</a> and icon from <a href="https://fontawesome.com/">fontawesome</a></p>

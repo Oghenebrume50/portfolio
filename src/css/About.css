@@ -1,0 +1,12 @@
+.about_me {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about_me div {
+  width: 50%;
+}
+
+.about_me img {
+  width: 100%;
+}

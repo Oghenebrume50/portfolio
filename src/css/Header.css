@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 50%;
+  width: 60%;
 }
 
 .Nav-bar .nav-item h3 {
@@ -35,6 +35,28 @@
   align-items: center;
 }
 
+@media screen and (max-width: 650px) {
+  .nav-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Nav-bar .nav-item h3 {
+    margin-left: .1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+    font-weight: 100;
+  }
+  
+  .Nav-bar .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+  }
+}
+
 .svg-inline--fa {
   height: 5em
 }
@@ -42,4 +64,8 @@
 .fa-home {
   font-size: 2em;
   color: #28a386
+}
+
+.nav-item * {
+  cursor: pointer;
 }

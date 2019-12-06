@@ -37,6 +37,22 @@
   color: black;
 }
 
+.social-holders .insta {
+  color: #3f729b;
+}
+
 .footer p {
   text-align: left;
+}
+.footer p a {
+  color: #28a386;
+}
+
+@media screen and (max-width: 650px) {
+  .footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
 }

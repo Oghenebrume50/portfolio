@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+a, .nav-item a:visited, a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+p.page_desc {
+  font-size: 5em;
+  font-weight: 500;
+}

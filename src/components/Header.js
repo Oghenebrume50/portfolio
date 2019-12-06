@@ -10,19 +10,19 @@ class Header extends React.Component {
         <h1>RN</h1>
         <div className="nav-menu">
           <div className="nav-item">
-            <FontAwesomeIcon icon={faHome}/>
+            <a href={window.location.reload}><FontAwesomeIcon icon={faHome}/></a>
           </div>
           <div className="nav-item">
             <FontAwesomeIcon icon={faSmile} />
-            <h3>About</h3>
+            <h3 id="about-btn">About</h3>
           </div>
           <div className="nav-item">
             <FontAwesomeIcon icon={faStickyNote} />
-            <h3>Work</h3>
+            <h3 id="work-btn">Work</h3>
           </div>
           <div className="nav-item">
             <FontAwesomeIcon icon={faEnvelope} />
-            <h3>Contact</h3>
+            <a href="#footer-contact" id="ggg"><h3>Contact</h3></a>
           </div>
         </div>
       </nav>
