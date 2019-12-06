@@ -9,8 +9,8 @@ class Note extends React.Component {
         <p className="imp-message"><em>I just want to add value at scale</em></p>
         <p>
             I am looking for an opportunity to learn and grow with an awesome team, 
-            I have meddle with the MERN stack, written Node with SQL DBMS like postgress
-            too  and I work mostly with Ruby on rails in recent times, but I am also excited to 
+            I have meddled with the MERN stack, written Node with SQL DBMS like postgres,
+            and I work mostly with Ruby on rails in recent times, but I am also excited to 
             learn new technologies and contribute to the overall progress of my team.
         </p>
       </div>
