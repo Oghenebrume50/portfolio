@@ -3,17 +3,17 @@ import '../css/Project.css';
 
 class Project extends React.Component {
   render() {
-    const {img_src, proj_title, proj_desc, link } = this.props;
+    const {img_src, proj_title, proj_desc, link, githubLink } = this.props;
     return (
-      <a className="a-project" href={link}>
-        <div>
+      <div className="a-project">
+        <a href={link}>
           <img src={img_src} alt="bookstore"/>
-        </div>
+        </a>
         <div className="a-project-footer">
-          <p className="project_title">{proj_title}</p>
+          <p className="project_title"><a href={githubLink}>{proj_title}(Github)</a></p>
           <p className="project_desc">{proj_desc}</p>
         </div>
-      </a>
+      </div>
     )
   }
 }

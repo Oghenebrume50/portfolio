@@ -38,6 +38,7 @@ class Work extends React.Component {
               proj_title="BookStore"
               proj_desc="A project to store books owned and read by an individual"
               link="https://oghenebrume50.github.io/react-bookstore/"
+              githubLink="https://github.com/Oghenebrume50/react-bookstore"
             />
 
             <Project 
@@ -45,6 +46,7 @@ class Work extends React.Component {
               proj_title="Todo list"
               proj_desc="A todo list app for task management"
               link="https://oghenebrume50.github.io/Todo-list/dist/index.html"
+              githubLink="https://github.com/Oghenebrume50/Todo-list"
             />
 
             <Project 
@@ -52,6 +54,7 @@ class Work extends React.Component {
               proj_title="Battleship"
               proj_desc="A battleship game with player and CPU"
               link="https://oghenebrume50.github.io/battle-ship/dist/index.html"
+              githubLink="https://github.com/Oghenebrume50/battle-ship"
             />
 
             <Project 
@@ -59,6 +62,7 @@ class Work extends React.Component {
               proj_title="A facebook clone"
               proj_desc="cloning the basic functionality of a social app"
               link="https://mysterious-waters-41144.herokuapp.com/"
+              githubLink="https://github.com/Oghenebrume50/facebook-clone"
             />
 
             <Project
@@ -66,6 +70,7 @@ class Work extends React.Component {
               proj_title="Chronos"
               proj_desc="A discord timer bot, to remind users of previous messages"
               link="https://discordapp.com/oauth2/authorize?&client_id=527533056735707159&scope=bot"
+              githubLink="https://github.com/Oghenebrume50/chronos-node-bot"
             />
 
             <Project
@@ -73,6 +78,7 @@ class Work extends React.Component {
               proj_title="A Frontend design"
               proj_desc="Implemented a design as part of a challenge on frontend masters"
               link="https://oghenebrume50.github.io/ZTM-challenges/ZTM-challenge-11/index.html"
+              githubLink="https://github.com/Oghenebrume50/ZTM-challenges-11"
             /> 
           </div> :
           <AboutMe/>
