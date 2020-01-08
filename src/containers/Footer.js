@@ -11,7 +11,7 @@ class Footer extends React.Component {
     return (
       <div className="footer" id="footer-contact">
         <div>
-          <a href={window.location.reload}><FontAwesomeIcon icon={faHome}/></a>
+          <a href={window.location.href}><FontAwesomeIcon icon={faHome}/></a>
           <Socials/>
         </div>
         <p>created by Raphael Noriode with <a href="https://reactjs.org/">Reactjs</a>, <a href="https://unsplash.com/">unsplash</a> and icon from <a href="https://fontawesome.com/">fontawesome</a></p>
