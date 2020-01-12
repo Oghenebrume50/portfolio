@@ -9,7 +9,7 @@ class Note extends React.Component {
     return (
       <div className="short-note">
         <div>
-          <p>Hi, I am Raphael Noriode</p>
+          <p className="name-intro">Hi, I am Raphael Noriode</p>
           <Socials/>
         </div>
         <p className="imp-message"><em>I just want to add value at scale</em>
