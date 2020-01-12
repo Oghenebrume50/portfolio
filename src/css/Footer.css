@@ -4,14 +4,15 @@
   padding-left: 5%;
   padding-top: 1%;
   padding-bottom: 0;
-  height: 12px;
+  height: 5.5em;
 }
 
-.footer div {
+.footer > div {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 40%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
 }
 
 .social-holders {
@@ -42,6 +43,12 @@
   color: #3f729b;
 }
 
+.foot-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .footer p {
   text-align: left;
 }
@@ -53,11 +60,50 @@
   height: 2em;
 }
 
+.mail-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.mail-form input, .mail-form textarea {
+  width: 80%;
+  border-radius: .5em;
+  outline: none;
+}
+
+.mail-form textarea {
+  resize: none;
+}
+
+.mail-form a {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
 @media screen and (max-width: 650px) {
-  .footer div {
+  .footer > div {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mail-form {
     width: 80%;
   }
+  
 }

@@ -16,10 +16,16 @@
   justify-content: flex-start;
 }
 
+.short-note .social-holders a {
+  font-size: 1em;
+  margin-left: .5em;
+}
+
 .short-note p {
   margin-left: 10%;
   text-align: left;
 }
+
 
 .short-note p:first-child {
   font-size: 1.2em;
@@ -30,4 +36,10 @@
   font-size: 2em;
   color: #28a386;
   margin-top: .5%;
+}
+
+@media screen and (max-width: 650px)  {
+  .imp-message *, .short-note p:first-child{
+    font-size: 1em;
+  }
 }
