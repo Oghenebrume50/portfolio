@@ -6,7 +6,7 @@ class Socials extends React.Component {
   render() {
     return (
       <div className="social-holders">
-        <a href="https://www.linkedin.com/in/raphael-noriode-635551180/" className="linkedln">
+        <a href="https://www.linkedin.com/in/raphael-noriode/" className="linkedln">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a href="https://github.com/Oghenebrume50">

@@ -4,6 +4,7 @@
   padding-left: 5%;
   padding-top: 1%;
   padding-bottom: 0;
+  height: 12px;
 }
 
 .footer div {
@@ -46,6 +47,10 @@
 }
 .footer p a {
   color: #28a386;
+}
+
+.svg-inline--fa {
+  height: 2em;
 }
 
 @media screen and (max-width: 650px) {

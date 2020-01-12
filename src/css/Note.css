@@ -1,12 +1,24 @@
 .short-note {
   width: 70%;
-  margin-left: auto;
-  margin-right: 20%;
   line-height: 1.5em;
 }
 
+.short-note > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1em;
+}
+
+.short-note .social-holders {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .short-note p {
-  margin: .5em;
+  margin-left: 10%;
+  text-align: left;
 }
 
 .short-note p:first-child {
@@ -14,7 +26,8 @@
   font-weight: 500;
 }
 
-.imp-message {
+.imp-message * {
   font-size: 2em;
   color: #28a386;
+  margin-top: .5%;
 }

@@ -1,12 +1,20 @@
 import React from 'react';
+
+import Socials from './Socails';
+
 import '../css/Note.css';
 
 class Note extends React.Component {
   render() {
     return (
       <div className="short-note">
-        <p>Hi, I am Raphael Noriode</p>
-        <p className="imp-message"><em>I just want to add value at scale</em></p>
+        <div>
+          <p>Hi, I am Raphael Noriode</p>
+          <Socials/>
+        </div>
+        <p className="imp-message"><em>I just want to add value at scale</em>
+          <a href="https://drive.google.com/file/d/16_IMq_gJ8RbzVD2I46G0vKjfkvqdebtw/view?usp=sharing"> (see resume) </a>
+        </p>
       </div>
     )
   }
