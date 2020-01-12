@@ -19,8 +19,8 @@ class AboutMe extends React.Component {
             I have a Diploma in computer science and on the verge of getting a Bachelors in a few years (to be updated) 
             I make things and break them with tools like Ruby on rails, Javascript, React and some not so fancy technologies 
             that mere mortals would run away from :smile:
-            I intern at <a href="https://www.crowdfrica.org/">Crowdfrica</a> where I tend to fix the lives of less-priviledge kids in Africa through codes
-            but I also work part-time as a Technical support engineer at <a href="https://www.microverse.org/">Microverse</a> a fun coding school which I attended for a while.
+            I write codes at <a href="https://www.crowdfrica.org/">Crowdfrica</a> where I tend to fix the lives of less-priviledge kids in Africa through codes
+            and I also work part-time as a Technical support engineer at <a href="https://www.microverse.org/">Microverse</a> a fun coding school which I attended for a while.
           </p>
           <p>
             As a community lover, I am a Microsoft student partner and the Lead Ingressive ambassador at the University
