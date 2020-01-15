@@ -11,8 +11,7 @@
   font-size: 3em;
   color: #28a386;
   -webkit-transform: rotate(-45deg); 
-  -moz-transform: rotate(-45deg);
-  
+  -moz-transform: rotate(-45deg); 
 }
 
 .Nav-bar .nav-menu {
@@ -69,4 +68,12 @@
 
 .nav-item * {
   cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .Nav-bar h1 {
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 2em;
+  }
 }
