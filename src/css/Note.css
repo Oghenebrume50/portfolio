@@ -36,7 +36,7 @@
 .imp-message * {
   font-size: 2em;
   color: #28a386;
-  margin-top: .5%;
+  margin-top: 2%;
 }
 
 @media screen and (max-width: 650px)  {
@@ -48,6 +48,7 @@
 
   .short-note .social-holders {
     margin-left: 10%;
+    margin-top: -3%;
   }
   
   .imp-message *, .short-note p:first-child{
