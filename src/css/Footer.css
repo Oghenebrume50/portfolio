@@ -7,9 +7,13 @@
 .footer > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
+}
+
+.foot-socials > a {
+  font-size: 2em;
 }
 
 .social-holders {
@@ -47,7 +51,7 @@
 }
 
 .footer p {
-  text-align: left;
+  text-align: center;
 }
 .footer p a {
   color: #28a386;

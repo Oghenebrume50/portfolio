@@ -1,6 +1,7 @@
 .short-note {
   width: 70%;
   line-height: 1.5em;
+  margin-top: 1%;
 }
 
 .short-note > div {
@@ -8,6 +9,7 @@
   justify-content: space-around;
   align-items: center;
   height: 1em;
+  margin-bottom: 2em;
 }
 
 .short-note .social-holders {
@@ -41,5 +43,9 @@
 @media screen and (max-width: 650px)  {
   .imp-message *, .short-note p:first-child{
     font-size: 1em;
+  }
+
+  .short-note {
+    margin-top: 3%;
   }
 }

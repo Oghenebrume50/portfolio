@@ -8,11 +8,10 @@
 .Nav-bar h1 {
   margin-left: 5%;
   margin-top: 1%;
-  font-size: 3em;
+  font-size: 5vw;
   color: #28a386;
   -webkit-transform: rotate(-45deg); 
-  -moz-transform: rotate(-45deg);
-  
+  -moz-transform: rotate(-45deg); 
 }
 
 .Nav-bar .nav-menu {
@@ -62,11 +61,18 @@
   height: 5em
 }
 
+.nav-item .fa-home {
+  font-size: 1.5em;
+}
+
 .fa-home {
-  font-size: 2em;
   color: #28a386
 }
 
 .nav-item * {
   cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  
 }
