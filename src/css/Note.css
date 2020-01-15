@@ -28,7 +28,6 @@
   text-align: left;
 }
 
-
 .short-note p:first-child {
   font-size: 1.2em;
   font-weight: 500;
@@ -41,11 +40,21 @@
 }
 
 @media screen and (max-width: 650px)  {
+  .short-note > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .short-note .social-holders {
+    margin-left: 10%;
+  }
+  
   .imp-message *, .short-note p:first-child{
     font-size: 1em;
   }
 
   .short-note {
-    margin-top: 3%;
+    margin-top: 5%;
   }
 }
