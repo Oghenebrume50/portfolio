@@ -12,6 +12,10 @@
   width: 100%;
 }
 
+.foot-socials > a {
+  font-size: 2em;
+}
+
 .social-holders {
   display: flex;
   justify-content: space-between;
