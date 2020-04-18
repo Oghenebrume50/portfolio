@@ -13,7 +13,7 @@ class Note extends React.Component {
           <Socials/>
         </div>
         <p className="imp-message"><em>I just want to add value at scale</em>
-          <a href="https://drive.google.com/file/d/16_IMq_gJ8RbzVD2I46G0vKjfkvqdebtw/view?usp=sharing"> (see resume) </a>
+          <a href="https://drive.google.com/file/d/1IChMLMogOYuJPvQmZyPSGZZgu4-f3sIj/view?usp=sharing"> (see resume) </a>
         </p>
       </div>
     )
