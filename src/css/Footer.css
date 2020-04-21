@@ -57,10 +57,6 @@
   color: #28a386;
 }
 
-.svg-inline--fa {
-  height: 2em;
-}
-
 .mail-form {
   display: flex;
   flex-direction: column;

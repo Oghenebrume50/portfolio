@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome } from '@fortawesome/free-solid-svg-icons'
 import ReactContactForm from 'react-mail-form';
 
-import Socials from '../components/Socails';
+import Socials from '../components/Socials';
 
 import '../css/Footer.css';
 

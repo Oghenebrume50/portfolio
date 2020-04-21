@@ -3,22 +3,20 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.Nav-bar h1 {
-  margin-left: 5%;
-  margin-top: 1%;
-  font-size: 5vw;
-  color: #28a386;
-  -webkit-transform: rotate(-45deg); 
-  -moz-transform: rotate(-45deg); 
+  width: 100%;
+  padding: 5%;
+  margin: auto;
+  height: 2em;
+  font-family: 'Amatic SC', cursive;
 }
 
 .Nav-bar .nav-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 60%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Nav-bar .nav-item h3 {
@@ -71,8 +69,4 @@
 
 .nav-item * {
   cursor: pointer;
-}
-
-@media screen and (max-width: 650px) {
-  
 }

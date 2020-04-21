@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faInstagram, faMedium, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faDev, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 class Socials extends React.Component {
   render() {
@@ -15,11 +15,8 @@ class Socials extends React.Component {
         <a href="https://twitter.com/raphael_noriode" className="twitter">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="https://www.instagram.com/raphaelnoriode/" className="insta">
-          <FontAwesomeIcon icon={faInstagram} />
-        </a>
-        <a href="https://medium.com/@raphaelnoriode" className="medium">
-          <FontAwesomeIcon icon={faMedium} />
+        <a href="https://dev.to/oghenebrume50" className="devto">
+          <FontAwesomeIcon icon={faDev} />
         </a>
       </div>
     )

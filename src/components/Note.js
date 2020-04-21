@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Socials from './Socails';
+import Socials from './Socials';
 
 import '../css/Note.css';
 

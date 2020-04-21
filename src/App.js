@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactGA from 'react-ga';
+import Social from './components/Socials';
 import Header from './components/Header';
-import Note from './components/Note';
-import Work from './containers/Works';
-import Footer from './containers/Footer';
 
 import './App.css';
 
@@ -17,10 +15,12 @@ function App() {
     
     <div className="App">
       {initTracker()}
+      <p>Hey there, I'm <span className="name">RAPHAEL NORIODE</span> a  <a href="https://drive.google.com/file/d/1IChMLMogOYuJPvQmZyPSGZZgu4-f3sIj/view?usp=sharing">
+            Software developer
+        </a>
+      </p>
       <Header/>
-      <Note />
-      <Work />
-      <Footer />
+      <Social/>
     </div>
   );
 }
