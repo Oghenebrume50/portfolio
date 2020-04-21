@@ -1,38 +1,14 @@
 import React from 'react';
 import Project from '../components/Project';
-import AboutMe from '../components/About';
 
 import '../css/Projects.css';
 
 class Work extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      show: 'project'
-    }
-  }
-
-  componentDidMount() {
-    let about_btn = document.getElementById("about-btn");
-    let page_desc = document.getElementsByClassName("page-desc")[0];
-    let work_btn = document.getElementById("work-btn");
-    about_btn.addEventListener('click', () => {
-      this.setState({show: 'about'});
-      page_desc.innerHTML = 'About Me'
-    })
-    work_btn.addEventListener('click', () => {
-      this.setState({show: 'project'})
-      page_desc.innerHTML = 'Projects'
-    })
-  }
-
   render() {
     return (
       <div className="all-projects">
-        <p className="page-desc" style={{fontSize:33}}>Projects</p>
+        <span>(Home | About | Contact)</span>
         <div className="page-items">
-          {this.state.show === 'project' ? 
-          <div>
             <Project 
               img_src="https://res.cloudinary.com/raphaelnoriode/image/upload/v1575559074/portfolio%20pic/photo-1485322551133-3a4c27a9d925_ivcixw.jpg" 
               proj_title="BookStore"
@@ -79,10 +55,7 @@ class Work extends React.Component {
               proj_desc="Implemented a design as part of a challenge on frontend masters"
               link="https://oghenebrume50.github.io/ZTM-challenges/ZTM-challenge-11/index.html"
               githubLink="https://github.com/Oghenebrume50/ZTM-challenges-11"
-            /> 
-          </div> :
-          <AboutMe/>
-          }
+            />
         </div>
       </div>
     )

@@ -1,28 +1,39 @@
 import React from 'react';
-import ReactGA from 'react-ga';
-import Social from './components/Socials';
-import Header from './components/Header';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 
-import './App.css';
+import Home from './containers/Home';
+import Projects from './containers/Projects';
 
-function initTracker() {
-  ReactGA.initialize('UA-163914624-1');
-  ReactGA.pageview('/');
-}
 
-function App() {
+export default function App() {
   return (
-    
-    <div className="App">
-      {initTracker()}
-      <p>Hey there, I'm <span className="name">RAPHAEL NORIODE</span> a  <a href="https://drive.google.com/file/d/1IChMLMogOYuJPvQmZyPSGZZgu4-f3sIj/view?usp=sharing">
-            Software developer
-        </a>
-      </p>
-      <Header/>
-      <Social/>
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/projects'>
+          <Projects />
+        </Route>
+        <Route path='/contact'>
+          <Contact />
+        </Route>
+        <Route exact>
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
-export default App;
+function About() {
+  return <h2>About</h2>;
+}
+
+function Contact() {
+  return <h2>Contact</h2>;
+}

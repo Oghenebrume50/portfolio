@@ -3,6 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
+}
+
+.all-projects > span {
+  text-align: left;
 }
 
 .all-projects div {
@@ -11,12 +16,22 @@
   flex-wrap: wrap;
 }
 
+.page-items {
+  margin-top: 5%;
+}
+
+.page-items > div:nth-child(odd) {
+  background: #fff;
+}
+
+.page-items > div:nth-child(even) {
+  background: #003c3c;;
+}
 
 
 @media screen and (max-width: 650px) {
   .all-projects div {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
 }
