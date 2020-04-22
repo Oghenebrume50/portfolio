@@ -15,9 +15,11 @@ function Home() {
     
     <div className="App">
       {initTracker()}
-      <p>Hey there, I'm <span className="name">RAPHAEL NORIODE</span> a  <a href="https://drive.google.com/file/d/1IChMLMogOYuJPvQmZyPSGZZgu4-f3sIj/view?usp=sharing">
-            Software developer
-        </a>
+      <p>Hey there, I'm <span className="name">RAPHAEL NORIODE </span> 
+        <span className='home_break'>
+          a <a href="https://drive.google.com/file/d/1IChMLMogOYuJPvQmZyPSGZZgu4-f3sIj/view?usp=sharing">
+            Software developer</a>
+        </span>
       </p>
       <Header/>
       <Social/>

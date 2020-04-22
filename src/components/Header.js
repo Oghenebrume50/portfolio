@@ -9,10 +9,10 @@ class Header extends React.Component {
       <nav className='Nav-bar'>
         <div className='nav-menu'>
           <div className='nav-item'>
-            <Link id='about-btn' to='/about'>About</Link>
+            <Link className='a_btn' to='/about'>About</Link>
           </div>
           <div className='nav-item'>
-            <Link id='work-btn' to='/projects'>Projects</Link>
+            <Link className='a_btn' to='/projects'>Projects</Link>
           </div>
         </div>
       </nav>

@@ -26,9 +26,12 @@
 }
 
 .page-items > div:nth-child(even) {
-  background: #003c3c;;
+  background: #003c3c;
 }
 
+.page-items > div:last-child {
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 650px) {
   .all-projects div {
