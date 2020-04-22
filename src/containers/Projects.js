@@ -57,7 +57,7 @@ class Work extends React.Component {
               img_src='https://res.cloudinary.com/raphaelnoriode/image/upload/v1575634481/portfolio%20pic/Screenshot_from_2019-12-06_13-13-28_bghwte.png'
               proj_title='A Frontend design'
               proj_desc='Implemented a design as part of a challenge on frontend masters'
-              link='https://oghenebrume50.github.io/ZTM-challenges/ZTM-challenge-11/index.html'
+              link='https://oghenebrume50.github.io/ZTM-challenges-11/index.html'
               githubLink='https://github.com/Oghenebrume50/ZTM-challenges-11'
             />
         </div>
