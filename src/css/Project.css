@@ -8,6 +8,14 @@
   padding-bottom: 2em;
 }
 
+.a-project:nth-child(odd) {
+  flex-direction: row;
+}
+
+.a-project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 .a-project img {
   max-width: 40%;
   height: 100%;
@@ -21,6 +29,7 @@
   justify-content: space-around;
   align-items: center;
   width: 40%;
+  height: 100%;
   padding: .75rem 1rem;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;

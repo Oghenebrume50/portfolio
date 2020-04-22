@@ -8,7 +8,12 @@ class Project extends React.Component {
       <div className="a-project">
         <div className="a-project-footer">
           <p className="project_desc">{proj_desc}</p>
-          <p className="project_title"><a href={githubLink}>{proj_title}(Github)</a></p>
+          <p className="project_title">
+            view <a href={link}>{proj_title}</a>
+          </p>
+          <p>
+            <a href={githubLink}>source code</a>
+          </p>
         </div>
         <img src={img_src} alt="bookstore"/>
       </div>

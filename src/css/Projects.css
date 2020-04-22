@@ -8,6 +8,7 @@
 
 .all-projects > span {
   text-align: left;
+  align-self: flex-start;
 }
 
 .all-projects div {
