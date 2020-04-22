@@ -7,7 +7,7 @@ import {
 
 import Home from './containers/Home';
 import Projects from './containers/Projects';
-
+import About from './containers/About';
 
 export default function App() {
   return (
@@ -28,10 +28,6 @@ export default function App() {
       </Switch>
     </Router>
   );
-}
-
-function About() {
-  return <h2>About</h2>;
 }
 
 function Contact() {

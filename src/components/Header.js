@@ -14,9 +14,6 @@ class Header extends React.Component {
           <div className='nav-item'>
             <Link id='work-btn' to='/projects'>Projects</Link>
           </div>
-          <div className='nav-item'>
-            <Link to='/contact' id='ggg'>Contact</Link>
-          </div>
         </div>
       </nav>
     )

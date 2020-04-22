@@ -10,7 +10,7 @@ class Work extends React.Component {
     return (
       <div className='all-projects'>
         <span>
-          (<Link to='/'>Home</Link> | <Link to='/about'>About</Link> | <Link to='/contact'>Contact</Link>)
+          (<Link to='/'>Home</Link> | <Link to='/about'>About</Link>)
         </span>
         <div className='page-items'>
             <Project 

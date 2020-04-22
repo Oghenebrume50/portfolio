@@ -1,23 +1,77 @@
 .about_me {
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+.about_me > .nav {
+  width: 100%;
+}
+
+.about_me h2{
+  font-family: 'Amatic SC', cursive;
 }
 
 .about_me div {
   width: 50%;
-  margin-top: 1%;
+  font-size: 2.5vh;
 }
 
-.about_me img#my_pic {
-  width: 100%;
+.about_me > .write_up {
+  width: 48%;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: .5%;
 }
 
 .about_me img {
-  width: 33.33%;
+  width: 100%;
+  height: 100%;
 }
 
-@media screen and (max-width: 650px) {
+.about_me > .mail-form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.about_me > .mail-form input, .about_me > .mail-form textarea {
+  width: 80%;
+  border-radius: .5em;
+  outline: none;
+}
+
+.mail-form textarea {
+  resize: none;
+}
+
+.mail-form a {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.mail-form p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 700px) {
   .about_me div {
+    width: 100%;
+    font-size: 2.5vw;
+  }
+
+  .about_me > .write_up {
     width: 100%;
   }
 
@@ -25,4 +79,7 @@
     width: 100%;
   }
   
+  .about_me > .mail-form > div {
+    margin-bottom: 2em;
+  }
 }
