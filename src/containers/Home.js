@@ -13,11 +13,11 @@ function initTracker() {
 function Home() {
   return (
     
-    <div className="App">
+    <div className='App'>
       {initTracker()}
-      <p>Hey there, I'm <span className="name">RAPHAEL NORIODE </span> 
+      <p>Hey there, I'm <span className='name'>RAPHAEL NORIODE </span> 
         <span className='home_break'>
-          a <a href="https://drive.google.com/file/d/1IChMLMogOYuJPvQmZyPSGZZgu4-f3sIj/view?usp=sharing">
+          a <a href='https://drive.google.com/file/d/1Sr-l9-xjMGWFfHWFheQDFiMS80uPUfNs/view?usp=sharing'>
             Software developer</a>
         </span>
       </p>
